@@ -1,5 +1,5 @@
 <template>
-  <p>Mensagem</p>
+ 
   <div>
     <form id="pizza-form">
       <div class="input-container">
@@ -23,17 +23,35 @@
         </select>
       </div>
 
-      <div class="input-container">
-        <label for="opcionais">selecione os opcionais: </label>
+      <div class="input-container" id="opicionais-container">
+        <label id="opcionais-title" for="opcionais">selecione os opcionais: </label>
+
        <div class="checkbox-container">
         <input type="checkbox" name="opcionais"
         v-model="opcionais" value="cheddar">
         <span> cheddar</span>
        </div>
+
+       <div class="checkbox-container">
+        <input type="checkbox" name="opcionais"
+        v-model="opcionais" value="Catupiry">
+        <span> Catupiry</span>
+       </div>
+
+       <div class="checkbox-container">
+        <input type="checkbox" name="opcionais"
+        v-model="opcionais" value="salsicha">
+        <span> salsicha</span>
+       </div>
+       <div class="checkbox-container">
+        <input type="checkbox" name="opcionais"
+        v-model="opcionais" value="Ovos">
+        <span> Ovos</span>
+       </div>
       </div>
 
       <div class="input-container">
-        <input type="submit" class="submit-btn" value="montar minha pizza!">
+        <input type="submit" class="submit-btn" value="Montar minha pizza!">
         
       </div>
     </form>
@@ -56,6 +74,63 @@ export default {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222;
+    padding: 5px 10px ;
+    border-left: 4px solid #fcba03;
+  }
+
+  input, select{
+    padding: 5px 10px;
+    width: 300px;
+  }
+
+  #opicionais-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  #opicionais-title{
+    width: 100%;
+  }
+
+  .checkbox-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+
+  }
+
+  .checkbox-container span,
+  .checkbox-container input {
+    width: auto;
+  }
+
+  .checkbox-container span{
+    margin-left: 6px;
+    font-weight: bold;
+  }
+
+  .submit-btn{
+    background-color: #222;
+    color: #fcba03;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .submit-btn:hover{
+    background-color: #fcba03 ;
+    color: #222;
   }
 
 
