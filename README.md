@@ -1,4 +1,5 @@
 # pizzaria_a_quadrada
+# Projeto criado para praticar VUE3
 
 ## Project setup
 ```
