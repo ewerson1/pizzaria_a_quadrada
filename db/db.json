@@ -1,0 +1,114 @@
+{
+    "ingredientes": {
+
+
+      "massa": [
+        {
+          "id": 1,
+          "tipo": "Normal"
+        },
+        {
+          "id": 2,
+          "tipo": "Intaliana"
+        },
+        {
+          "id": 3,
+          "tipo": "Recheada C/ Catupiry"
+        },
+        {
+          "id": 4,
+          "tipo": "Recheada C/ Cheddar"
+        }
+      ],
+
+
+      "sabores": [
+        {
+          "id": 1,
+          "tipo": "Há Quadrada"
+        },
+        {
+          "id": 2,
+          "tipo": "Brócolis com catupiry"
+        },
+        {
+          "id": 3,
+          "tipo": "Baiana"
+        },
+        {
+          "id": 4,
+          "tipo": "Portuguesa"
+        },
+        {
+          "id": 5,
+          "tipo": "Canadenseð"
+        },
+        { 
+          "id": 6,
+          "tipo": "Frango C/ Catupiry"
+        },
+        {
+          "id": 7,
+          "tipo": "Frango C/ Cheddar"
+        },
+        {
+          "id": 8,
+          "tipo": "Marguerita"
+        },
+        {
+          "id": 9,
+          "tipo": "Havaiana"
+        }
+      ],
+      
+
+
+      "opcionais": [
+        {
+          "id": 1,
+          "tipo": "Bacon"
+        },
+        {
+          "id": 2,
+          "tipo": "Cheddar"
+        },
+        {
+          "id": 3,
+          "tipo": "Salame"
+        },
+        {
+          "id": 4,
+          "tipo": "Tomate"
+        },
+        {
+          "id": 4,
+          "tipo": "Cebola roxa"
+        },
+        {
+          "id": 4,
+          "tipo": "Pepino"
+        }
+      ]
+    },
+
+    
+
+    
+    "status": [
+      {
+        "id": 1,
+        "tipo": "Solicitado"
+      },
+      {
+        "id": 2,
+        "tipo": "Em produção"
+      },
+      {
+        "id": 3,
+        "tipo": "Finalizado"
+      }
+    ],
+
+    
+    "pizzas": []
+  }
