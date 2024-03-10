@@ -4,5 +4,5 @@ module.exports = defineConfig({
 })
 
 module.export = {
-  baseUrl:"/"
+  baseUrl:"/Pizzaria--a--Quadrada"
 }
