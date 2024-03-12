@@ -93,43 +93,19 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
   "pizzas": [
-    {
-      "id": "6603",
-      "nome": null,
-      "sabores": null,
-      "massas": null,
-      "opcionais": [],
-      "status": "Em produção"
-    },
-    {
-      "id": "d282",
-      "nome": "",
-      "sabores": "",
-      "massas": "",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "8ce0",
-      "nome": "",
-      "sabores": "",
-      "massas": "",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
     {
       "id": "01da",
       "nome": "",
@@ -137,6 +113,16 @@
       "massas": "",
       "opcionais": [],
       "status": "Solicitado"
+    },
+    {
+      "id": "e921",
+      "nome": "jurbeba",
+      "sabores": "Baiana",
+      "massas": "Intaliana",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Em produção"
     }
   ]
 }
